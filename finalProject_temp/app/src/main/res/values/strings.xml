@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">골라줄게요</string>
+    <string name="btnNumberPick">숫자 뽑기</string>
+    <string name="btnDicePick">주사위 굴리기</string>
+    <string name="btnFoodPick">음식 고르기</string>
+    <string name="btnChoicePick">직접 입력하고 뽑기</string>
+</resources>

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="20dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="카테고리 : 음식"/>
+
+        <AutoCompleteTextView
+            android:id="@+id/autoComTextView"
+            android:layout_marginLeft="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="음식"
+            android:completionThreshold="1"/>
+
+        <Button
+            android:id="@+id/btnFoodAdd"
+            android:layout_marginLeft="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="항목 추가"
+            android:background="#F1948A"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_weight="1">
+        <ListView
+            android:id="@+id/listViewFoodPick"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:divider="#FFFFFF"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginBottom="20dp">
+        <Button
+            android:id="@+id/btnMyFoodsRegister"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="My Foods 등록"
+            android:background="#FFDEAD"
+            android:layout_marginRight="40dp"/>
+        <Button
+            android:id="@+id/btnMyFoodsList_enter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="My Foods 불러오기/삭제"
+            android:background="#FFDEAD"/>
+    </LinearLayout>
+
+    <View
+        android:layout_width="350dp"
+        android:layout_height="2dp"
+        android:layout_gravity="center"
+        android:background="#ff7f00"
+        android:layout_marginBottom="20dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center">
+        <Button
+            android:id="@+id/btnFoodpick_pick"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="뽑기"
+            android:background="#FFAA33"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+        <CheckBox
+            android:id="@+id/cbFoodPick"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="동등한 확률"/>
+    </LinearLayout>
+</LinearLayout>

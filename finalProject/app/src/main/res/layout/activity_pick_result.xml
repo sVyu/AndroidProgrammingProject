@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="top|center"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tvPickCategory"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:textSize="50dp"
+        android:textColor="#F33A6A"/>
+
+    <ImageView
+        android:id="@+id/ivDice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:scaleType="fitCenter"/>
+
+    <TextView
+        android:id="@+id/tvPickResult"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize = "30dp"
+        android:textColor="#483C32"/>
+
+    <Button
+        android:id="@+id/btnPickResult"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="[ 뽑기 ]"
+        android:background="#F4D03F"/>
+</LinearLayout>
