@@ -1,0 +1,18 @@
+안드로이드 선 추가
+https://selfish-developer.com/entry/%EC%95%88%EB%93%9C%EB%A1%9C%EC%9D%B4%EB%93%9C-%EC%84%A0-%EC%B6%94%EA%B0%80%ED%95%98%EA%B8%B0
+
+리스트뷰 구분선 없애기
+https://comuhyun.tistory.com/122
+
+JAVA 소수점
+https://yuien.tistory.com/entry/Java-%EC%86%8C%EC%88%98%EC%A0%90-%EC%9B%90%ED%95%98%EB%8A%94-%EC%9E%90%EB%A6%AC-%EC%88%98%EA%B9%8C%EC%A7%80-%ED%91%9C%EC%8B%9C%ED%95%98%EB%8A%94-%EB%B0%A9%EB%B2%95
+
+text alignment
+https://hk-android.tistory.com/10
+
+java 뽑기
+https://kkkapuq.tistory.com/107
+
+gridlayout 배치
+https://www.masterqna.com/android/89883/gridlayout-%EC%9E%90%EC%8B%9D%EB%B7%B0-%EB%B0%B0%EC%B9%98%EB%B0%A9%EB%B2%95
+https://stackoverflow.com/questions/3591784/views-getwidth-and-getheight-returns-0
